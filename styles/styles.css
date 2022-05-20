@@ -30,12 +30,7 @@ body {
 /* ---------------------------- RATING STATE ---------------------------- */
 
 .rating {
-  background: linear-gradient(
-    180deg,
-    rgba(38, 42, 48, 1) 0%,
-    rgba(23, 26, 33, 1) 100%
-  );
-
+  background: radial-gradient(98.96% 98.96% at 50% 0, #232a34 0, #181e27 100%);
   max-width: 90%;
   border-radius: 15px;
   padding: 2rem 1.5rem;
@@ -46,8 +41,8 @@ body {
   background-color: var(--dark-blue);
   border-radius: 50%;
   text-decoration: none;
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3rem;
+  width: 3rem;
   display: grid;
   place-items: center;
 }
@@ -57,13 +52,15 @@ body {
   width: 1em;
 }
 
-.rating h2 {
+.rating h1 {
   color: var(--white);
+  margin-top: 2rem;
 }
 
 .rating p {
   color: var(--light-grey);
   font-size: 15px;
+  margin: 0;
 }
 
 .rating ul {
@@ -137,12 +134,7 @@ body {
 
 .thankYou {
   color: var(--white);
-
-  background: linear-gradient(
-    180deg,
-    rgba(38, 42, 48, 1) 0%,
-    rgba(23, 26, 33, 1) 100%
-  );
+  background: radial-gradient(98.96% 98.96% at 50% 0, #232a34 0, #181e27 100%);
   max-width: 90%;
   border-radius: 15px;
   padding: 2rem 1.5rem;
